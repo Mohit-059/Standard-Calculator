@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="left">
+                <img src="" alt="">
+                &ltMG&gt Calculator
+            </div>
+            <div class="right ">
+                <button class="target">History</button></div>
+             
+        </div>
+        <div class="calculator">
+            
+            <div class="display">
+                <input type="text" class="numbers" readonly>
+                <div class="info"></div>
+            </div>
+            <div class="rows first">
+                <button class="buttonn transparentbtn" onclick="memoryClear()">MC</button>
+                <button class="buttonn transparentbtn" onclick="memoryRecall()">MR</button>
+                <button class="buttonn transparentbtn" onclick="memoryAdd()">M+</button>
+                <button class="buttonn transparentbtn" onclick="memoryRemove()">M-</button>
+                <button class="buttonn transparentbtn" onclick="memoryStore()">MS</button>
+            </div>
+            <div class="rows ">
+                <button class="button drkbtncolor" >1/x</button>
+                <button class="button drkbtncolor" >+/-</button>
+                <button class="button drkbtncolor" >2√x</button>
+                <button class="button drkbtncolor back" >Back<br>space</button>
+            </div>
+            <div class="rows">
+                <button class="button drkbtncolor" >%</button>
+                <button class="button drkbtncolor" >CE</button>
+                <button class="button drkbtncolor" >C</button>
+            </div>
+            <div class="overlay">
+                <h3>History</h3>
+                <div class="hist">
+                    
+                </div>
+            </div>
+            <div class="rows">
+                <button class="button ltbtncolor" >7</button>
+                <button class="button ltbtncolor" >8</button>
+                <button class="button ltbtncolor" >9</button>
+                <button class="button drkbtncolor"  >/</button>
+            </div>
+            <div class="rows">
+                <button class="button ltbtncolor" >4</button>
+                <button class="button ltbtncolor" >5</button>
+                <button class="button ltbtncolor" >6</button>
+                <button class="button drkbtncolor" >X</button>
+            </div>
+            <div class="rows">
+                <button class="button ltbtncolor" >1</button>
+                <button class="button ltbtncolor" >2</button>
+                <button class="button ltbtncolor" >3</button>
+                <button class="button drkbtncolor minus" >-</button>
+            </div>
+            <div class="rows">
+                <button class="button ltbtncolor" >^2</button>
+                <button class="button ltbtncolor" >0</button>
+                <button class="button ltbtncolor  dot" >.</button>
+                <button class="button drkbtncolor" >+</button>
+            </div>
+            <div class="rows">
+                <button class="button blue calculate" >Calculate</button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
